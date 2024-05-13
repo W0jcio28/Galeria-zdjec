@@ -1,0 +1,34 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+}
+
+h2 {
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.lewa,
+.srodek,
+.prawa {
+	float: left;
+	width: 33.33%;
+	height: 100vh;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.ssaki,
+.ptaki,
+.ryby {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	cursor: pointer;
+}
